@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/j/Documents/GitKraken/ios_ml_sample/classifer_example/classifer_example/ImageClassifier.mlmodel">
+   </FileRef>
+   <FileRef
       location = "self:classifer_example.xcodeproj">
    </FileRef>
 </Workspace>

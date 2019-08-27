@@ -15,7 +15,7 @@
 		090A17BE2312D306000057E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A17BC2312D306000057E5 /* LaunchScreen.storyboard */; };
 		090A17C92312D307000057E5 /* classifer_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090A17C82312D307000057E5 /* classifer_exampleTests.swift */; };
 		090A17D42312D307000057E5 /* classifer_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090A17D32312D307000057E5 /* classifer_exampleUITests.swift */; };
-		090F04182312F6CC0049D86F /* NumberClassifer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 090F04172312F6CC0049D86F /* NumberClassifer.mlmodel */; };
+		09FD30AC231508C3000D997A /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 09FD30AB231508C3000D997A /* ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		090A17CF2312D307000057E5 /* classifer_exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = classifer_exampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		090A17D32312D307000057E5 /* classifer_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classifer_exampleUITests.swift; sourceTree = "<group>"; };
 		090A17D52312D307000057E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		090F04172312F6CC0049D86F /* NumberClassifer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NumberClassifer.mlmodel; sourceTree = "<group>"; };
+		09FD30AB231508C3000D997A /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		090A17AF2312D304000057E5 /* classifer_example */ = {
 			isa = PBXGroup;
 			children = (
-				090F04172312F6CC0049D86F /* NumberClassifer.mlmodel */,
+				09FD30AB231508C3000D997A /* ImageClassifier.mlmodel */,
 				090A17B02312D304000057E5 /* AppDelegate.swift */,
 				090A17B22312D304000057E5 /* ViewController.swift */,
 				090A17B42312D304000057E5 /* Main.storyboard */,
@@ -262,10 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090F04182312F6CC0049D86F /* NumberClassifer.mlmodel in Sources */,
 				090A17B92312D304000057E5 /* classifer_example.xcdatamodeld in Sources */,
 				090A17B32312D304000057E5 /* ViewController.swift in Sources */,
 				090A17B12312D304000057E5 /* AppDelegate.swift in Sources */,
+				09FD30AC231508C3000D997A /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

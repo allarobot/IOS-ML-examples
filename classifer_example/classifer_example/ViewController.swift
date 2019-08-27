@@ -18,12 +18,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func imageProcess(image: UIImage)
     {
-    if let model = try? VNCoreMLModel(for: ImageClassifer().model) {
+    if let model = try? VNCoreMLModel(for: ImageClassifier().model) {
         let request = VNCoreMLRequest(model: model) { (request, error) in
             var temp:VNClassificationObservation?
             if let results = request.results as? [VNClassificationObservation] {
                 for result in results {
-                    print("\(result.identifier): \(result.confidence    3)")
+                    print("\(result.identifier): \(result.confidence)")
                     if ((temp == nil) || temp!.confidence < result.confidence)
                     {
                       temp = result
